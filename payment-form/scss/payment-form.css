@@ -1,0 +1,124 @@
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #46545c;
+  font-size: 14px; }
+  body .pull-left {
+    float: left; }
+  body .pull-right {
+    float: right; }
+  body .mgb20 {
+    margin-bottom: 20px; }
+  body .mgb3 {
+    margin-bottom: 3px; }
+  body .hide {
+    display: none; }
+  body .secondary-btn {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 16px;
+    border-radius: 3px; }
+  body .primary-btn {
+    background: #54c7c3;
+    color: #fff;
+    border: 1px solid #54c7c3;
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 100%; }
+  body .tooltip_templates {
+    display: none; }
+  body .tooltipster-punk {
+    height: auto !important;
+    width: 40% !important; }
+  body .tooltipster-sidetip.tooltipster-punk .tooltipster-box {
+    background: #54c7c3;
+    border-color: #54c7c3;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.4); }
+  body .tooltipster-sidetip.tooltipster-punk .tooltipster-content {
+    color: #fff;
+    padding: 8px; }
+  body .tooltipster-arrow-border, body .tooltipster-arrow-background {
+    border-top-color: #54c7c3 !important; }
+  body ::placeholder {
+    color: #ddd; }
+  body .container {
+    height: 100%; }
+    body .container .form-wrapper {
+      width: 320px;
+      height: 100%; }
+      body .container .form-wrapper #paymentForm {
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 10px; }
+        body .container .form-wrapper #paymentForm input[type=number]::-webkit-inner-spin-button,
+        body .container .form-wrapper #paymentForm input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0; }
+        body .container .form-wrapper #paymentForm .form-header {
+          text-align: center;
+          border-bottom: 1px solid #ddd;
+          background: #eef2f4;
+          overflow: hidden;
+          color: #5d6f78;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px; }
+          body .container .form-wrapper #paymentForm .form-header .form-heading {
+            font-weight: 100; }
+        body .container .form-wrapper #paymentForm .form-body {
+          padding: 20px; }
+        body .container .form-wrapper #paymentForm .form-control {
+          overflow: hidden; }
+          body .container .form-wrapper #paymentForm .form-control label {
+            font-weight: bold;
+            font-size: 12px; }
+          body .container .form-wrapper #paymentForm .form-control .total {
+            font-size: 22px; }
+          body .container .form-wrapper #paymentForm .form-control input {
+            width: 90%;
+            padding: 8px 13px;
+            border: 1px solid #dddddd; }
+          body .container .form-wrapper #paymentForm .form-control input:focus {
+            border-color: #54c7c3;
+            outline: none;
+            background: #eef9f9; }
+          body .container .form-wrapper #paymentForm .form-control input.error {
+            border: 1px solid #c00000; }
+          body .container .form-wrapper #paymentForm .form-control div.error {
+            color: #c00000;
+            font-size: 10px; }
+          body .container .form-wrapper #paymentForm .form-control input.text-box {
+            border-radius: 3px; }
+          body .container .form-wrapper #paymentForm .form-control img.info-icon {
+            width: 15px;
+            position: relative;
+            right: 23px;
+            cursor: pointer; }
+          body .container .form-wrapper #paymentForm .form-control .exp-cvv-inputs {
+            display: flex;
+            display: -ms-flexbox; }
+            body .container .form-wrapper #paymentForm .form-control .exp-cvv-inputs input {
+              width: 80%;
+              margin-top: 3px; }
+            body .container .form-wrapper #paymentForm .form-control .exp-cvv-inputs .exp-date input {
+              border-top-left-radius: 3px;
+              border-bottom-left-radius: 3px; }
+            body .container .form-wrapper #paymentForm .form-control .exp-cvv-inputs .cvv-number .security-input {
+              display: inline-flex; }
+              body .container .form-wrapper #paymentForm .form-control .exp-cvv-inputs .cvv-number .security-input input {
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                min-width: 80%; }
+          body .container .form-wrapper #paymentForm .form-control .zip-input {
+            display: inline-flex;
+            width: 100%; }
+            body .container .form-wrapper #paymentForm .form-control .zip-input input {
+              min-width: 90%; }
+        body .container .form-wrapper #paymentForm .submitBtn span {
+          font-size: 16px; }
+        body .container .form-wrapper #paymentForm .submitBtn .icon img {
+          width: 16px; }
+
+/*# sourceMappingURL=payment-form.css.map */

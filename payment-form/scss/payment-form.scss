@@ -1,0 +1,169 @@
+html,body{
+    height:100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(70,84,92);
+    font-size: 14px;
+
+    .pull-left{
+        float:left;
+    }
+    .pull-right{
+        float:right;
+    }
+    .mgb20{
+        margin-bottom:20px;
+    }
+    .mgb3{
+        margin-bottom: 3px;
+    }
+    .hide{
+        display: none;
+    }
+    .secondary-btn{
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 5px 16px;
+        border-radius: 3px;
+    }
+    .primary-btn{
+        background: #54c7c3;
+        color: #fff;
+        border: 1px solid #54c7c3;
+        border-radius: 3px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .tooltip_templates{
+        display: none;
+    }
+    .tooltipster-punk{
+        height: auto !important;
+        width: 40% !important;
+    }
+    .tooltipster-sidetip.tooltipster-punk .tooltipster-box {
+        background: #54c7c3;
+        border-color: #54c7c3;
+        border-radius: 6px;
+        box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+    }
+    
+    .tooltipster-sidetip.tooltipster-punk .tooltipster-content {
+        color: #fff;
+        padding: 8px;
+    }
+    .tooltipster-arrow-border, .tooltipster-arrow-background{
+        border-top-color:#54c7c3 !important;
+    }
+    ::placeholder { 
+        color: #ddd;
+    }
+    .container{
+        height: 100%;
+        .form-wrapper{
+            width:320px;
+            height:100%;
+            #paymentForm{
+                height: auto;
+                border:1px solid #ddd;
+                border-radius:10px;
+                input[type=number]::-webkit-inner-spin-button, 
+                input[type=number]::-webkit-outer-spin-button { 
+                -webkit-appearance: none; 
+                margin: 0; 
+                }
+                .form-header{
+                    text-align: center;
+                    border-bottom: 1px solid #ddd;
+                    background: rgb(238,242,244);
+                    overflow: hidden;
+                    color: rgb(93,111,120);
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    .form-heading{
+                        font-weight: 100;
+                    }
+                }
+                .form-body{
+                    padding:20px;
+                }
+                .form-control{
+                    overflow: hidden;
+                    
+                    label{
+                        font-weight: bold;
+                        font-size: 12px;
+                    }
+                    .total{
+                        font-size: 22px;
+                    }
+                    input{
+                        width: 90%;
+                        padding: 8px 13px;
+                        border: 1px solid #dddddd;
+                    }
+                    input:focus{
+                        border-color: #54c7c3;
+                        outline: none;
+                        background: rgb(238,249,249);
+
+                    }
+                    input.error{
+                        border:1px solid #c00000;
+                    }
+                    div.error{
+                        color:#c00000;
+                        font-size:10px;
+                    }
+                    input.text-box{
+                        border-radius: 3px;
+                    }
+                    img.info-icon{
+                        width: 15px;
+                        position: relative;
+                        right: 23px;
+                        cursor: pointer;
+                    }
+                    .exp-cvv-inputs{
+                        display: flex;
+                        display: -ms-flexbox;
+                        input{
+                            width:80%;
+                            margin-top: 3px;
+                        }
+                        .exp-date input{
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        .cvv-number {
+                            .security-input{
+                                display: inline-flex;
+                                input{
+                                    border-top-right-radius: 3px;
+                                    border-bottom-right-radius: 3px;
+                                    min-width: 80%;
+                                }
+                            }
+                        }
+                    }
+                    .zip-input{
+                       display: inline-flex;
+                       width:100%;
+                       input{
+                           min-width: 90%;
+                       }
+                    }
+                }
+                .submitBtn{
+                    span{
+                        font-size: 16px;
+                    }
+                    .icon img{
+                        width:16px;
+                    }
+                }
+            }
+        }
+    }
+}
